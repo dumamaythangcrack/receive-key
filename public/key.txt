@@ -1,0 +1,5 @@
+#free:
+CryzhenKey-ABC123
+CryzhenKey-XYZ456
+#premium:
+CryzhenKey-PREMIUM987
