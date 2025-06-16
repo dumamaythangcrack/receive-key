@@ -1,6 +1,0 @@
-#free:
-abc123
-xyz789
-
-#premium:
-987abc
