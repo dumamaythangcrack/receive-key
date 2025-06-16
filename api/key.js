@@ -1,12 +1,10 @@
 // api/key.js
-
 import fs from 'fs';
 import path from 'path';
 
 export default function handler(req, res) {
   const secretHeader = req.headers['x-api-secret'];
 
-  // Chống truy cập không hợp lệ
   if (secretHeader !== 'Cryzhen-Secret-2025') {
     return res.status(403).json({ error: 'Forbidden' });
   }
